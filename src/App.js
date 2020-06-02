@@ -112,7 +112,7 @@ function App() {
 
       <Count value={`${count}${sm}`} />
 
-      {t.getSeconds()}
+      {`Current time: ${t.getHours()}:${t.getMinutes()}.${t.getSeconds()}`}
       {/* {time}<br></br>
       {count} */}
 
