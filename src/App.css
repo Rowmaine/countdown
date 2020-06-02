@@ -1,0 +1,40 @@
+.App {
+  max-width: 550px;
+  box-sizing: border-box;
+  margin: 80px auto;
+  /* text-align: center; */
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.clickBTN {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  color: white;
+  background-color: gray;
+  margin-left: 15px;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.clickBTN:hover {
+  background-color: green;
+}
+
+.clickBTN:disabled {
+  color: gray;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.timeOptions {
+  text-align: left;
+  margin: 0px 0px 0px 10px;
+}
+
+.optionLabel {
+  margin: 0px 15px;
+}
